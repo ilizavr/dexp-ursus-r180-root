@@ -24,6 +24,7 @@ https://github.com/TomKing062/CVE-2022-38694_unlock_bootloader
 есть автоматический скрипт для патча FDL1(я проверил и действительно проверка подписи удалилась!), но FDL2 пришлось патчить вручную
 
 успешно запатчил(через ida pro пару nop) и прошил
+![](photo_2026-08-18_09-30-15.jpg)
 ```
 FDL2 >w vbmeta vbmeta-test.img
 file size : 0x100000
